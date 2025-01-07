@@ -20,4 +20,4 @@ jobs:
 
     - name: Deploy to Server
       run: |
-        ssh -o StrictHostKeyChecking=no root@193.222.62.154 "systemctl restart fasttube.service"
+        ssh -o StrictHostKeyChecking=no root@193.222.62.154 "systemctl restart repair.service"
